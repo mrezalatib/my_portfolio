@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Aspiring cloud engineer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A soon to be Systems development graduate from WeThinkcode_.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <a href="https://github.com/mrezalatib">My GitHub</a>
+        <a href="https://gitlab.com/mrezalatib">My GitLab</a>
+    </section>
+
+    <section id="contact">
+        <h2>Connect with me!</h2>
+        <p>Email: mrezalatib@gmail.com</p>
+        <p>Phone: 062 583 7550</p>
+        <a href="https://www.linkedin.com/in/reza-latib/">LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mohammed Reza Latib.</p>
+        <p>All right reserved.</p>
+    </footer>
+</body>
+</html>
